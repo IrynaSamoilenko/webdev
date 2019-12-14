@@ -1,38 +1,82 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>OWASP TOP-10</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONVERTER ON JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+
+    </style>
 </head>
-<div class="header">
-    <h1>TOP-10 WEB VULNERABILITIES</h1>
-    <h3>By OWASP</h3>
-</div>
-<div class="main">
-<p>The OWASP Top 10 is a powerful awareness document for web application security.
-    It represents a broad consensus about the most critical security risks to web applications.
-    Project members include a variety of security experts from around the world who have shared their expertise to produce this list.
-    We urge all companies to adopt this awareness document within their organization and start the process of ensuring that their web applications minimize these risks.
-    Adopting the OWASP Top 10 is perhaps the most effective first step towards changing the software development culture within your organization into one that produces
-    secure code.</p>
-</div>
-<div class="links">
-    <ul>
-        <li><a href="https://www.owasp.org/index.php/Main_Page">OWASP™ Foundation</a></li>
-        <li><a href="https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project">About</a></li>
-        <li><a href="http://stores.lulu.com/owasp">Books</a></li>
-        <li><a href="https://www.owasp.org/index.php/Glossary">Glossary</a></li>
-    </ul>
-</div>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-4 text-center mb-3"><a href="lab1.html">CLICK ON ME --> LAB#1</a></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-4 text-center mb-3">IT IS HTML-PAGE FOR LAB#2</h1>
+            </div>
+        </div>
+       <div class="row">
+           <div class="col-md-6">
+               <h1 class="display-5 text-center mb-3">LAB#3</h1>
+               <h2 class="display-5 text-center mb-3">VALUES CONVERTER</h2>
+                   <form>
+                       <div class="form-group">
+                           <input type="number" id="kmInput" placeholder="Input km.." class="form-control form-control-lg">
+                       </div>
+                   </form>
+               <div id="output">
+                   <div class="card alert-warning mb-2">
+                       <div class="card-block">
+                           <h4>Meters:</h4>
+                           <div id="mOutput"></div>
+                       </div>
+                   </div>
+                   <div class="card alert-primary mb-2">
+                       <div class="card-block">
+                           <h4>Santemeters:</h4>
+                           <div id="smOutput"></div>
+                       </div>
+                   </div>
+                   <div class="card alert-success mb-2">
+                       <div class="card-block">
+                           <h4>Milimeters:</h4>
+                           <div id="mlOutput"></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-6">
+               <h1 class="display-5 text-center mb-3">LAB#4</h1>
+               <h2 class="display-5 text-center mb-3">ADD REVIEW</h2>
+               <form>
+                   <div class="form-group">
+                       <input type="text" id="review" placeholder="Input you review.." class="form-control form-control-lg">
+                   </div>
+                   <div class="addbtn">
+                       <span id="btn" class="btn form-control form-control-lg" onclick="newReview()">ADD REVIEW</span>
+                   </div>
+               </form>
+               <div id="reviews">
+                   <h3>REVIEWS</h3>
+                   <p> Here JS wil add new element</p>
+                   <p>              |             </p>
+                   <p>              |             </p>
+                   <p>              V             </p>
+               </div>
+               </div>
+           </div>
+       </div>
+    </div>
 
-<div class="footer">
-<p>This is place for footer</p>
-<p>By Iryna Samoilenko</p>
-</div>
-
-
-
+<script src="js/main.js"></script>
+</body>
 </html>
