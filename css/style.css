@@ -1,10 +1,10 @@
 @charset "utf-8";
-/* CSS Document */
 
 body {
     margin-top: 70px;
-    background-color: #333;
-    color: #fff;
+    background-color: azure;
+    color: MidnightBlue;
+    word-wrap: break-word;
 }
 .card-block {
     padding: 10 px;
@@ -12,15 +12,12 @@ body {
 
 .btn {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 
 .addbtn {
-    color: #000;
-    width: 100%;
-    height: 100%;
+    color: DimGray;
     background-color: #cef5c3;
-    line-height: 1.5;
     border-radius: .3rem;
 }
 
@@ -34,4 +31,8 @@ body {
 
 #reviews p {
     margin: 0;
+}
+
+#output {
+    margin-top: 15px;
 }
